@@ -2,19 +2,80 @@
 <html lang="en">
 <meta charset="utf-8">
 
-<title>ocean</title>  
+<title>selfie</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="deepskyblue">
-<meta name="color-scheme" content="dark">
-<meta name="description" content="aquamarine">
-  
+<meta name="color-scheme" content="dark light">
+<meta name="description" content="hotpink">
+
 <style media=(color)>
-  html { color: seashell; background: indigo; }
-  mark { color: indigo; background: yellow; }
-  :any-link { color: aqua; background: indigo; }
-  ::selection { color: navy; background: aqua; }
+  html { color: turquoise; background: darkviolet }
+  mark { color: #510; background: lemonchiffon }
+  strong { color: #111; background: #11dff1 }
+  :link { color: #111; background: magenta }
+  :visited { color: #111; background: #bae }
+  ::selection { color: rebeccapurple; background: pink; }
+</style>
+
+<style media=all>
+  a { box-sizing: border-box }
+  a + a { border-radius: 80% 10% }
+  strong { border-radius: 10% 80% }
+  :focus {
+    outline: thick groove;
+    text-decoration-style: wavy;
+  }
+  a + a:focus { border-radius: 10% 10% }
+  .wavy { text-decoration-style: wavy }
+  .wavy:focus { text-decoration-style: dashed }
+  html { font: max(30pt, 6vw)/1 monospace }
+  body { margin: auto; overflow-wrap: anywhere }
+  menu { margin: 0; margin-inline-start: 2rem; padding: 0 }
+  menu li { margin: 1rem }
+  .circle { list-style: circle }
 </style>
 
 <link rel="help" href="https://github.com/s9a/ocean">
 <link rel="license" href="UNLICENSE.txt">
+
+<h1><a href="/selfie">selfie</a></h1>
+<menu>
+  <li id="sun">
+    <a href="/gerbera">sun</a>
+    <a href="/" rel="home"><abbr>dom</abbr></a>
+  <li id="moon">
+    <a href="/moon">moon</a>
+    <a href="/dream">dream</a>
+  <li id="mercury">
+    <a href="/volume">mercury</a>
+    <a href="/hellotape">retro</a>
+  <li><a href="/flamingo">venus</a>
+  <li id="mars">
+    <a href="/porpoise">mars</a>
+    <a href="/tapeshop">retro</a>
+  <li id="jupe">
+    <a href="/lemon"><mark>jupe</mark></a>
+    <a href="/cuerpo"><code>cuerpo</code></a>
+  <li id="saturn" class="circle">
+    <a href="/cab">saturn</a>
+    <a href="/lockdown">retro</a>
+  <li id="uranus" class="circle">
+    <a href="/dew">uranus</a>
+    <a href="/tape" class="wavy rad"><strong>station</strong></a>
+  <li id="neptune">
+    <a href="/dream">neptune</a>
+    <a href="/sea">retro</a>
+  <li id="pluto">
+    <a href="/bae">pluto</a>
+    <a href="/oracle">retro</a>
+  <li class="ac">
+    <a href="/rose">rising</a>
+    <a href="/cascade">practice</a>
+  <li class="mc">
+    <a href="/angel"><b>m</b>ysti<b>c</b></a>
+    <a href="/dm">mid<wbr>heaven</a>
+  <li id="node">
+    <a href="/gerbera">gerbera</a>
+    <a href="/flamingo">node</a>
+</menu>
